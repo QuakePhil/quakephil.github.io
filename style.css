@@ -1,0 +1,107 @@
+/* Inspired by: Marissa Mayer's use of enhancv.com */
+
+@font-face {
+    font-family: 'Rubik';
+    src: url("fonts/Rubik-Regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    font-weight: bold;
+    src: url("fonts/Rubik-Medium.woff2") format('woff2');
+}
+
+* {
+  font-family: 'Rubik';
+  font-size: 14px;
+}
+
+/* NAME */
+/* Title */
+
+.container {
+  padding-top: 50px;
+}
+
+.pr-name, .pr-title, .pr-section-title,
+.pr-section-company,
+.pr-section-subtitle {
+  font-weight: bold;
+}
+
+.pr-name, .pr-section-title {
+  text-transform: uppercase;
+}
+
+.pr-name {
+  font-size: 42px;
+  height: 50px;
+}
+
+.pr-title {
+  font-size: 21px;
+  height: 60px;
+}
+
+.pr-email, .pr-link, .pr-location {
+  font-size: 12px;
+}
+
+/* Email, Link, Location */
+/* re: http://astronautweb.co/snippet/font-awesome/ */
+
+.pr-title,
+.pr-email::before, .pr-link::before, .pr-location::before,
+.pr-section-company,
+.fas {
+  color: royalblue;
+}
+
+.pr-email::before, .pr-link::before, .pr-location::before,
+.pr-section-date::before,
+.pr-pdf::after {
+  font-family: 'FontAwesome';
+}
+
+.pr-email::before {
+  content: '\f003';
+}
+
+.pr-link::before {
+  content: '\f0c1';
+}
+
+.pr-location::before {
+  content: '\f041';
+}
+
+/* Sections */
+
+.pr-section-title {
+  font-size: 28px;
+  padding-top: 10px;
+}
+
+.pr-section-title > hr {
+  border: 1px solid black;
+}
+
+.fas, .pr-section-role {
+  font-size: 21px;
+}
+
+.pr-section-company, .pr-section-subtitle {
+  font-size: 15px;
+}
+
+.pr-section-subsection {
+  font-size: 13px;
+}
+
+.pr-section-date::before {
+  content: '\f073';
+}
+
+.pr-pdf::after {
+  content: '\f1c1';
+}
