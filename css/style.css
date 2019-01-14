@@ -43,15 +43,11 @@ body {
 
 .pr-name {
   font-size: 42px;
-  height: 50px;
 }
 
-.pr-title {
-  font-size: 21px;
-  height: 60px;
-}
-
-.pr-email, .pr-link, .pr-location {
+.pr-email, .pr-link, .pr-location,
+.fa,
+.far {
   font-size: 12px;
 }
 
@@ -59,28 +55,20 @@ body {
 /* re: http://astronautweb.co/snippet/font-awesome/ */
 
 .pr-title,
-.pr-email::before, .pr-link::before, .pr-location::before,
 .pr-section-company,
-.fas {
+.fa,
+.fas,
+.far {
   color: royalblue;
 }
 
-.pr-email::before, .pr-link::before, .pr-location::before,
-.pr-section-date::before,
+.pr-section-date > .far {
+  color: black;
+}
+
 .pr-pdf::after {
   font-family: 'FontAwesome';
-}
-
-.pr-email::before {
-  content: '\f003';
-}
-
-.pr-link::before {
-  content: '\f0c1';
-}
-
-.pr-location::before {
-  content: '\f041';
+  content: '\f1c1';
 }
 
 /* Sections */
@@ -94,7 +82,9 @@ body {
   border: 1px solid black;
 }
 
-.fas, .pr-section-role {
+.fas,
+.pr-section-role,
+.pr-title {
   font-size: 21px;
 }
 
@@ -104,12 +94,4 @@ body {
 
 .pr-section-subsection {
   font-size: 13px;
-}
-
-.pr-section-date::before {
-  content: '\f073';
-}
-
-.pr-pdf::after {
-  content: '\f1c1';
 }
