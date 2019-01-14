@@ -52,7 +52,6 @@ body {
 }
 
 /* Email, Link, Location */
-/* re: http://astronautweb.co/snippet/font-awesome/ */
 
 .pr-title,
 .pr-section-company,
@@ -64,11 +63,6 @@ body {
 
 .pr-section-date > .far {
   color: black;
-}
-
-.pr-pdf::after {
-  font-family: 'FontAwesome';
-  content: '\f1c1';
 }
 
 /* Sections */
