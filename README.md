@@ -4,4 +4,4 @@ Rubik font sourced from https://github.com/googlefonts/rubik/blob/master/fonts/w
 
 Background from https://www.toptal.com/designers/subtlepatterns/seamless-paper-texture/
 
-Less wordy version
+More wordy version
