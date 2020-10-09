@@ -3,3 +3,5 @@ This resume was inspired by [Marissa Mayer's use of enhancv.com](https://www.lin
 Rubik font sourced from https://github.com/googlefonts/rubik/blob/master/fonts/webfonts/
 
 Background from https://www.toptal.com/designers/subtlepatterns/seamless-paper-texture/
+
+Less wordy version
